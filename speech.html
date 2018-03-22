@@ -36,15 +36,40 @@
 								'nowych propozycji.', 'kierunków postępowego wychowania.', 'systemu szkolenia kadr odpowiadającego potrzebom.',
 								'odpowiednich warunków aktywizacji.', 'modelu rozwoju.', 'form oddziaływania.'
 							];
+							
+							
+			
+			  for(var i = 0; i < 5; i++){
+			  
+			  /* var firstTab = Math.floor(Math.random() * (first.length-1));
+			  var secondTab = Math.floor(Math.random() * (second.length-1));
+			  var thirdTab = Math.floor(Math.random() * (third.length-1));
+			  var fourthTab = Math.floor(Math.random() * (fourth.length-1));
+			
+			  var sentence = first[firstTab] + second[secondTab] + third[thirdTab] + fourth[fourthTab];
+			  */
+			 
+			  var firstTab = n();
+			  var secondTab = n();
+			  var thirdTab = n();
+			  var fourthTab = n();
+			
+			  var sentence = first[firstTab] + second[secondTab] + third[thirdTab] + fourth[fourthTab];
+			  console.log(sentence);
+			  
+			 }
+							
+			
 				
 				// complete a JavaScript code here ...
 				// ...
 				
 			}
-
-			// returns random integer from 0 to 9
-			function n() {
-				// ...
+			//returns random integer from 0 to 9
+			
+			function n() { 
+						var c = Math.floor(Math.random() * 10);
+						return c;
 			}
 			
 		</script>
