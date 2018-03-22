@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Execute a condition</title>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<h1>Execute a condition</h1>
+		<p>Display data one the console</p>
+		<button onclick="mojaFunkcja()">Kliknij aby wyswietlic dane w konsoli</button>
+		<script>
+			var name="Bartek"; 
+			var surname="Janik";
+			var age="28";// enter your name, surname
+			
+			//console.log(name + "\n" + surname);// display your personal data on the console
+		
+			function mojaFunkcja() {
+				var txt;
+				if (confirm("Nacisnij OK! a w consoli wyswietli sie name")) {
+				
+				} else {
+					alert("Nacisnales cancel");
+				}
+				console.log(name +" "+ surname);
+			}
+
+			
+		</script>
+	</body>
+</html>

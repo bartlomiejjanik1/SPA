@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Try to guess</title>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<h1>Try to guess</h1>
+
+		<script>
+			var user=prompt("Wpisz cyfrę 1-5");// read user's number (popup window)
+			
+			var los = Math.floor(Math.random() * 5) + 1;  // create a random numbes
+
+				if (los == user)  {       // compare the numbers, if
+					alert("Good work")
+				} else {
+					alert("sorry");       // show results (popup window)
+				} 
+			
+			/*switch (user) {
+				case "1":
+				alert("good work");
+				break;
+				case "2":
+				alert("sorry");
+				default:
+				document.write("cos nie tak")
+			} */
+
+			document.write("Wylosowana liczba to:" + los);
+
+			
+		
+			
+		</script>
+	</body>
+</html>
